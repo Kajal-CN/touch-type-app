@@ -1,0 +1,135 @@
+/* App.css */
+
+/* Styles for Timer component */
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Styles for Progress component */
+.progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.accuracy {
+  font-size: 16px;
+}
+
+.speed {
+  font-size: 16px;
+}
+
+/* Styles for TextArea component */
+.text-area {
+  margin: 20px auto;
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.expected-text {
+  font-size: 18px;
+  color: #333;
+}
+
+.current-text {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Styles for PracticeKeys component */
+.practice-keys {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.key-button {
+  font-size: 16px;
+  padding: 8px 16px;
+  margin: 0 5px;
+}
+
+/* App.css */
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer,
+.progress {
+  margin-bottom: 20px;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text-display {
+  margin-bottom: 10px;
+}
+
+.expected-text {
+  font-size: 20px;
+}
+
+.current-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.practice-keys {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.key {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.key:hover {
+  background-color: #f0f0f0;
+}
+
+.typing-box {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.typing-box:focus {
+  border-color: #007bff;
+}
